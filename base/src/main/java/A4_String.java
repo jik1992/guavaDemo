@@ -6,7 +6,7 @@ import com.google.common.collect.ImmutableMap;
  * Created by ZuoYun on 5/19/15. Time: 1:08 AM Information:
  */
 
-public class string {
+public class A4_String {
 
   public static void main(String[] args) {
     System.out.println(Joiner.on(",").join(1,2,3,4,5));

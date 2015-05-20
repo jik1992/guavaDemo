@@ -13,6 +13,8 @@
 
     <modules>
         <module>base</module>
+        <module>cache</module>
+        <module>concurrency</module>
     </modules>
 
     <properties>
@@ -26,6 +28,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${version.guava}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.3.2</version>
         </dependency>
     </dependencies>
 </project>
