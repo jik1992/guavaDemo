@@ -22,7 +22,7 @@ public class ThreadOne implements Callable {
 
   public Object call() throws Exception {
     System.out.println("thread_"+name);
-    TimeUnit.SECONDS.sleep(random.nextInt());
+    TimeUnit.SECONDS.sleep(4);
     return "thread_"+name+" finsh!";
   }
 }

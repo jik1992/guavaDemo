@@ -26,7 +26,6 @@ public class C0_base {
     ExecutorService es= Executors.newFixedThreadPool(100);
     List<Future<String>> result=new LinkedList<Future<String>>();
 
-
     result.add(es.submit(new ThreadOne("1")));
     result.add(es.submit(new ThreadOne("2")));
     result.add(es.submit(new ThreadOne("3")));

@@ -15,6 +15,7 @@
         <module>base</module>
         <module>cache</module>
         <module>concurrency</module>
+        <module>eventBus</module>
     </modules>
 
     <properties>
